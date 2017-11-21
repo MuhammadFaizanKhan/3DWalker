@@ -2,13 +2,13 @@
 using System.Collections;
 using ThreeDWalker;
 
-/// <summary>
-/// Function: Handle Keyboard Input
-/// Author: Muhammad Faizan Khan
-/// </summary>
+
 namespace ThreeDWalker
 {
-    [RequireComponent(typeof(MovementInput))]
+    /// <summary>
+    /// Function: Handle Keyboard Input
+    /// Author: Muhammad Faizan Khan
+    /// </summary>
     public class MovementInput : MonoBehaviour
     {
         [HideInInspector]

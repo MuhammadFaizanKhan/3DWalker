@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37356448, g: 0.3811204, b: 0.35887685, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99e829f42b418a1489d011e1f2b54a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
 --- !u!23 &49674363
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -284,6 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdd77591468ea834890831ca2e100592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 500
 --- !u!1 &193657659
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a34d67da880a1ff49839811ba49801b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 2
+  rotationSpeed: 500
 --- !u!1 &406894615
 GameObject:
   m_ObjectHideFlags: 0
@@ -859,7 +861,7 @@ GameObject:
   - 222: {fileID: 647021935}
   - 114: {fileID: 647021934}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Image_3DWalkerLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -879,9 +881,9 @@ RectTransform:
   m_Father: {fileID: 1984408680}
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.16584046, y: 0.109000005}
-  m_AnchoredPosition: {x: -2.5, y: 1}
-  m_SizeDelta: {x: -4, y: 2}
+  m_AnchorMax: {x: 0.13421011, y: 0.081}
+  m_AnchoredPosition: {x: 0.20000076, y: 0.39999962}
+  m_SizeDelta: {x: 1.4000015, y: 0.79999924}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647021934
 MonoBehaviour:
@@ -1195,7 +1197,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013086540838, guid: 68b093760f194924997c4f5dd65fe1d8, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 54000012312120548, guid: 68b093760f194924997c4f5dd65fe1d8,
         type: 2}
@@ -1834,10 +1836,10 @@ RectTransform:
   - {fileID: 1885786233}
   m_Father: {fileID: 1984408680}
   m_RootOrder: 1
-  m_AnchorMin: {x: 0.9138911, y: 0.96432865}
-  m_AnchorMax: {x: 0.99131125, y: 0.98970133}
-  m_AnchoredPosition: {x: -0.5, y: -0.5}
-  m_SizeDelta: {x: 5, y: 10}
+  m_AnchorMin: {x: 0.86821014, y: 0.95800006}
+  m_AnchorMax: {x: 0.99131125, y: 0.99300003}
+  m_AnchoredPosition: {x: 2.6000004, y: 1.2}
+  m_SizeDelta: {x: -1.2000008, y: 0.6999998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349167000
 MonoBehaviour:
@@ -2011,7 +2013,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1000013782126940, guid: c9a82a507665de74cac852efcdab2b69, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c9a82a507665de74cac852efcdab2b69, type: 2}
@@ -2057,7 +2059,7 @@ GameObject:
   - 222: {fileID: 1741310978}
   - 114: {fileID: 1741310977}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2076,10 +2078,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1984408680}
   m_RootOrder: 2
-  m_AnchorMin: {x: 0.86100006, y: 0.96432865}
-  m_AnchorMax: {x: 0.9138911, y: 0.98970133}
-  m_AnchoredPosition: {x: -1.5, y: -0.5}
-  m_SizeDelta: {x: -3, y: -6}
+  m_AnchorMin: {x: 0.8184203, y: 0.965378}
+  m_AnchorMax: {x: 0.8704203, y: 0.98970133}
+  m_AnchoredPosition: {x: 1.2000008, y: -1}
+  m_SizeDelta: {x: -2, y: -5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1741310977
 MonoBehaviour:
@@ -2426,7 +2428,6 @@ GameObject:
   - 92: {fileID: 2072766920}
   - 124: {fileID: 2072766919}
   - 81: {fileID: 2072766918}
-  - 114: {fileID: 2072766916}
   m_Layer: 0
   m_Name: CamWalkHead
   m_TagString: MainCamera
@@ -2447,20 +2448,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 49674361}
   m_RootOrder: 0
---- !u!114 &2072766916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2072766913}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f24824f0c8d4714f92657811feada4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputHorizontal: 0
-  inputVertical: 0
-  inputUpDown: 0
 --- !u!81 &2072766918
 AudioListener:
   m_ObjectHideFlags: 0

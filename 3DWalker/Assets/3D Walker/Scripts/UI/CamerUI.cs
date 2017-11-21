@@ -31,7 +31,7 @@ namespace ThreeDWalker
 
         public void OnCameraChange()
         {
-            Debug.Log(ddCameraSelection.value.ToString());
+            //Debug.Log(ddCameraSelection.value.ToString());
             var selectedCameraName = ddCameraSelection.options[ddCameraSelection.value].text;//Get Selected Camera
             CameraActiveByName(selectedCameraName);
         }

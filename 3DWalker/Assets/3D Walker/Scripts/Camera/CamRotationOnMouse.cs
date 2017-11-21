@@ -17,13 +17,13 @@ namespace ThreeDWalker
         /// Rotation around the vertical axis is called yaw
         /// </summary>
         float yaw = 0.0f;
- 
+
         /// <summary>
         /// Rotation around the side-to-side axis is called pitch
         /// </summary>
         float pitch = 0.0f;
 
-        public float rotationSpeed = 2f;
+        public float rotationSpeed = 500f;
 
         void Start()
         {
