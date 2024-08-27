@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 using ThreeDWalker;
+using UnityEngine.UI;
 
 /// <summary>
 /// Function: Handle Cam Controller object and manage its UI.
